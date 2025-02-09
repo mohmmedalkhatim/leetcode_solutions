@@ -1,5 +1,7 @@
-mod Contains_Duplicate;
+mod contains_duplicate;
+mod tow_sum;
+
 
 fn main() {
-    print!("hello world");
+    print!("test");
 }
