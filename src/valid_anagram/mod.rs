@@ -12,14 +12,6 @@ impl Solution {
             return false;
         }
         for i in 0..s.len(){
-            memory_s.entry(String::from(s.get_mut(i..i).unwrap())).and_modify(|&mut mut item|{
-                item += 1;
-            }).or_insert(1);
-            memory_t.entry(String::from(t.get_mut(i..i).unwrap())).and_modify(|&mut mut item|{
-                item += 1;
-            }).or_insert(1);
-
-
         }
 
 

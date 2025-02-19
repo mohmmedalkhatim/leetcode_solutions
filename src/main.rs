@@ -2,6 +2,11 @@ mod contains_duplicate;
 mod tow_sum;
 mod valid_anagram;
 mod group_anagram;
+mod top_k_frequant_number;
 fn main() {
-    print!("test");
+
+    for i in (0..10).rev()  {
+        print!("{}",i)
+    }
+
 }
