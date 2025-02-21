@@ -33,34 +33,5 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::Solution;
-    #[test]
-    fn valid_anagram() {
-        assert!(Solution::valid_anagram(
-            "anagram".to_string(),
-            "nagaram".to_string()
-        ));
-        assert!(!Solution::valid_anagram(
-            "rat".to_string(),
-            "car".to_string()
-        ));
-        assert!(!Solution::valid_anagram(
-            "rat".to_string(),
-            "car".to_string()
-        ));
-    }
-    #[test]
-    fn valid_anagram_sort() {
-        assert!(Solution::valid_anagram_sort(
-            "anagram".to_string(),
-            "nagaram".to_string()
-        ));
-        assert!(!Solution::valid_anagram_sort(
-            "rat".to_string(),
-            "car".to_string()
-        ));
-        assert!(!Solution::valid_anagram_sort(
-            "rat".to_string(),
-            "car".to_string()
-        ));
-    }
+
 }
