@@ -7,6 +7,7 @@ mod encode_decode;
 mod product_expect_self;
 mod vaild_palindroma;
 mod longest_consicative_number;
+mod vaild_sudoko;
 fn main() {
 
     for i in (0..10).rev()  {
