@@ -1,6 +1,4 @@
-struct Solution;
 
-impl Solution {
     pub fn encode(arr: Vec<String>) -> String {
         let mut res = String::new();
         let mut count = 0;
@@ -33,17 +31,16 @@ impl Solution {
         }
         return res;
     }
-}
 
 #[cfg(test)]
 mod test {
-    use super::Solution;
+    use super::*;
     #[test]
-    fn encode() {
+    fn encode_test() {
 
         assert_eq!(
             "name#user#email".to_string(),
-            Solution::encode(vec![
+            encode(vec![
                 "name".to_string(),
                 "user".to_string(),
                 "email".to_string()
@@ -51,9 +48,9 @@ mod test {
         );
     }
     #[test]
-    fn decode(){
+    fn decode_test(){
         assert_eq!(
-            Solution::decode("name#user#passoword".to_string()),
+            decode("name#user#passoword".to_string()),
             vec![
                 "name".to_string(),
                 "user".to_string(),
