@@ -10,3 +10,6 @@ mod longest_consicative_number;
 mod vaild_sudoko;
 mod tow_sum_2;
 mod tapping_rain_water;
+mod min_stack;
+mod vaild_parenteses;
+mod binary_search;
