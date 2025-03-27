@@ -1,4 +1,4 @@
-use std::{collections::HashMap, sync::Mutex};
+use std::{collections::HashMap};
 
 #[warn(dead_code)]
 pub struct Solution;
