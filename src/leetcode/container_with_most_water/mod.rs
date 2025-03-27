@@ -1,4 +1,3 @@
-use std::collections::HashMap;
 
 fn container_with_most_water(list: Vec<i32>)->i32 {
     let mut left = 0;
